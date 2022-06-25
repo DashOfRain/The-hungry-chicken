@@ -3,5 +3,41 @@ body {
 }
 
 img {
-    width: 50%;
+    width: 60%;
+}
+
+button {
+    width: 15%;
+}
+
+.leave-group {
+    display: none;
+}
+
+.seeker-of-food {
+    display: none;
+}
+
+.late-night-chick {
+    display: none;
+}
+
+.the-encounter {
+    display: none;
+}
+
+.sitting-duck {
+    display: none;
+}
+
+.the-coward {
+    display: none;
+}
+
+.for-honor{
+display:none;
+}
+
+.stay-with-group {
+    display: none;
 }
