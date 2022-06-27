@@ -9,6 +9,26 @@ $(".stay").click(function() {
     $(".beginning").toggle();
 });
 
+$(".leave-them-alone").click(function() {
+    $(".boring-chicken").toggle();
+    $(".stay-with-group").toggle();
+});
+
+$(".ending-boring").click(function() {
+    $(".boring-chicken").toggle();
+    $(".beginning").toggle();
+});
+
+$(".peck-them").click(function() {
+    $(".stay-with-group").toggle();
+    $(".least-favorite").toggle();
+});
+
+$(".ending-bbq").click(function() {
+    $(".least-favorite").toggle();
+    $(".beginning").toggle();
+});
+
 $(".stay-outside").click(function() {
     $(".late-night-chick").toggle();
     $(".leave-group").toggle();
